@@ -1,2 +1,2 @@
-hi my name is panupong thongthong
+you are very stupid .
 
