@@ -5,8 +5,8 @@ int main() {
   int i;
   char n[20];
   char swap[20];
-  char t ;
-  int ans ;
+  int  t ;
+  
 
   printf("Enter Word :");
   scanf("%s", n);
