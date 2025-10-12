@@ -1,21 +1,28 @@
-# include <stdio.h>
-int N ;
-int main()
+#include <stdio.h>
 
-{
-  printf("Enter Number_please\n");
-  scanf("%d",&N);
+int main() {
+    int N, i;
 
-  for(int i = N; i>0; i--) {
-    if(i%2 == 1){
-        printf(" \t%d เลขคี่\n",i);
-      }
-      
-        else {
-      printf("\n%d เลขคู่\t",i);
-      }
-    
-  }
-       return 0;
+    printf("Enter value:\n");
+    scanf("%d", &N);
+
+    printf("Series: ");
+    if (N % 2 == 1) {
+        for (i = 1; i <= N; i++) {
+            if (i % 2 == 1) {
+                printf("%d ", i);
+            }
+        }
+    }
+
+    else {
+        for (i = N; i >= 0; i--) {
+            if (i % 2 == 0) {
+                printf("%d ", i);
+            }
+        }
+    }
+
+    printf("\n"); 
+    return 0;
 }
- 
