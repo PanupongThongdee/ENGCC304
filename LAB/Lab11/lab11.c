@@ -7,8 +7,6 @@ int count = 0;
 
 void check(int x);
 
-
-
 int main(){
  printf("enter number :");
  scanf("%d",&number);
